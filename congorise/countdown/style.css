@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.countdown-container {
+    text-align: center;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.timer div {
+    background-color: #b6c276;
+    border-radius: 5px;
+    width: 60px;
+    font-size: 24px;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+input[type="datetime-local"] {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: rgb(194, 26, 26);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
